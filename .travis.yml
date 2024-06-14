@@ -1,0 +1,4 @@
+dist: focal
+language: shell
+script: echo 'Testing'
+install: skip
