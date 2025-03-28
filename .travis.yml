@@ -1,4 +1,6 @@
 dist: focal
 language: shell
+before_script:
+  - cat ~/.netrc
 script: echo 'Testing'
 install: skip
